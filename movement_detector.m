@@ -27,3 +27,23 @@ for i = 1:length(accZ_new) %Removing all NaN, creating new vector of only real n
 end
 
 acctot_clean = accX_clean + accY_clean + accZ_clean; %Adding x-, y- and z-direction
+%% STD
+Fs	= 50;	% sampling rate
+WindowLength	=	Fs;	% window length
+iterator	=	Fs;	% iteration in samples
+Y_vec = [];
+Output_vec = []; %Vector showing detected movement
+% figure()
+for i = 1:iterator:length(acctot_clean) - WindowLength
+    pause(0.3)
+	segment = acctot_clean(i:i+WindowLength); % windowed N/Fs seconds of data
+    %plot(segment)
+    diff = std(segment); %Calculating STD of accelerometer vector
+    Y_vec(end+1) = diff;
+    if (diff > threshold) 
+        Output_vec(end+1) = 1;
+    else 
+        Output_vec(end+1) = 0;
+    end
+    
+end
