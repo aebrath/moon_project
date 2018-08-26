@@ -1,0 +1,455 @@
+2018-03-07 15:09:10.805    l:85    Preferences.swift                shouldRecordAccelerometer                  Preference.shouldRecordAccelerometer was set to = true
+2018-03-07 15:09:10.808    l:69    IrisManager.swift                startScanning()                            
+2018-03-07 15:09:10.808    l:143   IrisSessionManager.swift         useBiosensePattern                         BiosensePattern(state: running, biosenseDuration: 2147483647, pauseDuration: 0)
+2018-03-07 15:09:10.810    l:57    BiosensePattern.swift            activate()                                 
+2018-03-07 15:09:10.810    l:59    AppDelegate.swift                application(_:didFinishLaunchingWithO...   Preferences.shouldShowFirstDerivative      = false
+2018-03-07 15:09:10.810    l:60    AppDelegate.swift                application(_:didFinishLaunchingWithO...   Preferences.shouldSendNotifications        = false
+2018-03-07 15:09:10.810    l:61    AppDelegate.swift                application(_:didFinishLaunchingWithO...   Preferences.shouldRecordRawData            = true
+2018-03-07 15:09:10.810    l:62    AppDelegate.swift                application(_:didFinishLaunchingWithO...   Preferences.shouldRecordAccelerometer      = true
+2018-03-07 15:09:10.810    l:63    AppDelegate.swift                application(_:didFinishLaunchingWithO...   Preferences.shouldUploadToServer           = true
+2018-03-07 15:09:10.810    l:64    AppDelegate.swift                application(_:didFinishLaunchingWithO...   Preferences.shouldDetectSkin               = false
+2018-03-07 15:09:10.810    l:65    AppDelegate.swift                application(_:didFinishLaunchingWithO...   Configuration.includeUploadToServer        = true
+2018-03-07 15:09:10.810    l:66    AppDelegate.swift                application(_:didFinishLaunchingWithO...   Configuration.includeHospitalFormOnConnect = false
+2018-03-07 15:09:10.810    l:250   IrisManager.swift                centralManagerDidUpdateState               BLE State: CBCentralManager.poweredOn
+2018-03-07 15:09:10.810    l:69    IrisManager.swift                startScanning()                            
+2018-03-07 15:09:10.811    l:77    IrisManager.swift                startScanning()                            Started scanning for IRIS...
+2018-03-07 15:09:10.938    l:74    AppDelegate.swift                applicationDidBecomeActive                 
+2018-03-07 15:10:33.059    l:155   Iris.swift                       init(peripheral:queue:advertisementDa...   Advertisement data: ["kCBAdvDataIsConnectable": 1, "kCBAdvDataServiceUUIDs": <__NSArrayM 0x1c804beb0>(
+0100,
+Battery,
+0400,
+0500,
+0700,
+0600
+)
+, "kCBAdvDataLocalName": IRIS-120022]
+2018-03-07 15:10:33.060    l:161   Iris.swift                       init(peripheral:queue:advertisementDa...   👶 Initializing IRIS-120022
+2018-03-07 15:10:33.061    l:273   IrisManager.swift                centralManager(_:didDiscover:advertis...   Found IRIS with UUID: 478B6CB1-CF16-3885-7A75-624299730788, advData: ["kCBAdvDataIsConnectable": 1, "kCBAdvDataServiceUUIDs": <__NSArrayM 0x1c804beb0>(
+0100,
+Battery,
+0400,
+0500,
+0700,
+0600
+)
+, "kCBAdvDataLocalName": IRIS-120022], services: nil, rssi: -60
+2018-03-07 15:10:33.062    l:174   IrisManager.swift                addToAvailableIrises(iris:)                IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:10:33.063    l:175   IrisManager.swift                addToAvailableIrises(iris:)                Available: [], connecting: [], connected: []
+2018-03-07 15:10:33.063    l:177   IrisManager.swift                addToAvailableIrises(iris:)                Available: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connecting: [], connected: []
+2018-03-07 15:10:33.064    l:280   IrisManager.swift                centralManager(_:didDiscover:advertis...   Initializing irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:33.065    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:33.066    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:33.240    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:33.241    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:33.814    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:33.816    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:34.008    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:34.009    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:34.205    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:34.207    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:34.598    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:34.599    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:34.788    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:34.789    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:34.981    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:34.982    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:35.370    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:35.371    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:35.758    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:35.759    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:36.518    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:36.519    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:36.897    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:36.898    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:37.291    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:37.292    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:37.486    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:37.487    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:38.253    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:38.254    l:314   IrisSessionManager.swift         handleNew(rssi:from:)                      Will connect...
+2018-03-07 15:10:38.254    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:38.255    l:101   IrisManager.swift                connect(to:)                               Will connect to iris IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)...
+2018-03-07 15:10:38.256    l:103   IrisManager.swift                connect(to:)                               Stopping irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:38.257    l:107   IrisManager.swift                connect(to:)                               Available: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connecting: [], connected: []
+2018-03-07 15:10:38.257    l:184   IrisManager.swift                removeFromAvailableIrises(iris:)           Available: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connecting: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connected: []
+2018-03-07 15:10:38.261    l:189   IrisManager.swift                removeFromAvailableIrises(iris:)           Available: [], connecting: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connected: []
+2018-03-07 15:10:38.263    l:190   IrisManager.swift                removeFromAvailableIrises(iris:)           IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:10:38.264    l:112   IrisManager.swift                connect(to:)                               Available: [], connecting: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connected: []
+2018-03-07 15:10:38.265    l:86    IrisManager.swift                stopScanning()                             
+2018-03-07 15:10:38.838    l:305   IrisManager.swift                centralManager(_:didConnect:)              Did connect to IRIS-120022 with UUID 478B6CB1-CF16-3885-7A75-624299730788. Will start discovering characteristics...
+2018-03-07 15:10:38.839    l:169   Iris.swift                       discoverServicesAndCharacteristics(co...   Initializing discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:38.840    l:187   Iris.swift                       discoverServicesAndCharacteristics(co...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:10:39.168    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c027af80, isPrimary = YES, UUID = 7C960100-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c027acc0, isPrimary = YES, UUID = 7C960200-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c027aec0, isPrimary = YES, UUID = 7C960700-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c0272c80, isPrimary = YES, UUID = 7C960500-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c0279d80, isPrimary = YES, UUID = 7C960400-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c027b100, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c027b000, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c027ae80, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:10:39.169    l:370   Iris.swift                       peripheral(_:didDiscoverServices:)         Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c027af00>{number = 4, name = (null)}
+2018-03-07 15:10:39.227    l:395   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Subscribing to error message characteristic
+2018-03-07 15:10:39.227    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c027acc0, isPrimary = YES, UUID = 7C960200-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c027aec0, isPrimary = YES, UUID = 7C960700-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c0272c80, isPrimary = YES, UUID = 7C960500-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c0279d80, isPrimary = YES, UUID = 7C960400-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c027b100, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c027b000, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c027ae80, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:10:39.228    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c027af00>{number = 4, name = (null)}
+2018-03-07 15:10:39.346    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c027aec0, isPrimary = YES, UUID = 7C960700-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c0272c80, isPrimary = YES, UUID = 7C960500-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c0279d80, isPrimary = YES, UUID = 7C960400-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c027b100, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c027b000, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c027ae80, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:10:39.347    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c027af00>{number = 4, name = (null)}
+2018-03-07 15:10:39.407    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c0272c80, isPrimary = YES, UUID = 7C960500-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c0279d80, isPrimary = YES, UUID = 7C960400-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c027b100, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c027b000, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c027ae80, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:10:39.408    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c027af00>{number = 4, name = (null)}
+2018-03-07 15:10:39.467    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c0279d80, isPrimary = YES, UUID = 7C960400-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c027b100, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c027b000, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c027ae80, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:10:39.468    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c027af00>{number = 4, name = (null)}
+2018-03-07 15:10:39.527    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c027b100, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c027b000, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c027ae80, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:10:39.527    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c027af00>{number = 4, name = (null)}
+2018-03-07 15:10:39.586    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c027b000, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c027ae80, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:10:39.587    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c027af00>{number = 4, name = (null)}
+2018-03-07 15:10:39.646    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c027ae80, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:10:39.647    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c027af00>{number = 4, name = (null)}
+2018-03-07 15:10:39.765    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([])
+2018-03-07 15:10:39.766    l:406   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Found characteristics for all the available services
+2018-03-07 15:10:39.767    l:408   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Stopping discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c027af00>{number = 4, name = (null)}
+2018-03-07 15:10:39.768    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to nil
+2018-03-07 15:10:39.769    l:228   IrisManager.swift                discoverServicesAndCharacteristics(for:)   Setting up IRIS-120022 with config IRIS
+2018-03-07 15:10:39.769    l:761   Iris.swift                       sendSetADCGainRequest(gain:)               Sending a set ADC gain request to one (0x01)
+2018-03-07 15:10:39.770    l:754   Iris.swift                       sendSetADCSpeedRequest(adcSpeed:)          Sending a set ADC speed request to _1000 (0x03)
+2018-03-07 15:10:39.771    l:745   Iris.swift                       sendSetSampleIntervalRequest(interval:)    Sending a set sample interval request to 75
+2018-03-07 15:10:39.771    l:671   Iris.swift                       sendSet(numberOfLedGroups:)                Setting the number of LED groups to 4
+2018-03-07 15:10:39.772    l:687   Iris.swift                       sendSet(ledsIndices:forLedGroupIndex:)     Setting the LED bitmask 00000000 for LED group with index 0
+2018-03-07 15:10:39.772    l:687   Iris.swift                       sendSet(ledsIndices:forLedGroupIndex:)     Setting the LED bitmask 10000010 for LED group with index 1
+2018-03-07 15:10:39.773    l:687   Iris.swift                       sendSet(ledsIndices:forLedGroupIndex:)     Setting the LED bitmask 00101000 for LED group with index 2
+2018-03-07 15:10:39.773    l:687   Iris.swift                       sendSet(ledsIndices:forLedGroupIndex:)     Setting the LED bitmask 01010000 for LED group with index 3
+2018-03-07 15:10:39.774    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 0 for LED at index 0 using payload <0x01, 0x01, 0x00>
+2018-03-07 15:10:39.774    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 30 for LED at index 1 using payload <0x01, 0x02, 0x1E>
+2018-03-07 15:10:39.775    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 0 for LED at index 2 using payload <0x01, 0x04, 0x00>
+2018-03-07 15:10:39.776    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 40 for LED at index 3 using payload <0x01, 0x08, 0x28>
+2018-03-07 15:10:39.776    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 60 for LED at index 4 using payload <0x01, 0x10, 0x3C>
+2018-03-07 15:10:39.777    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 40 for LED at index 5 using payload <0x01, 0x20, 0x28>
+2018-03-07 15:10:39.778    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 60 for LED at index 6 using payload <0x01, 0x40, 0x3C>
+2018-03-07 15:10:39.779    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 20 for LED at index 7 using payload <0x01, 0x80, 0x14>
+2018-03-07 15:10:39.779    l:234   IrisManager.swift                discoverServicesAndCharacteristics(for:)   Available: [], connecting: [IRIS(name: IRIS-120022, deviceID: -, connected: true, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connected: []
+2018-03-07 15:10:39.780    l:236   IrisManager.swift                discoverServicesAndCharacteristics(for:)   Available: [], connecting: [], connected: []
+2018-03-07 15:10:39.780    l:197   IrisManager.swift                addToConnectedIrises(iris:)                IRIS(name: IRIS-120022, deviceID: -, connected: true, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:10:39.781    l:198   IrisManager.swift                addToConnectedIrises(iris:)                Available: [], connecting: [], connected: []
+2018-03-07 15:10:39.782    l:200   IrisManager.swift                addToConnectedIrises(iris:)                Available: [], connecting: [], connected: [IRIS(name: IRIS-120022, deviceID: -, connected: true, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)]
+2018-03-07 15:10:39.782    l:262   IrisSessionManager.swift         handleIrisConnected(iris:)                 Connected to: IRIS(name: IRIS-120022, deviceID: -, connected: true, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:10:39.783    l:242   Iris.swift                       send                                       Will send packet: batteryLevel(Proto.Iris.Request.DualLoopState.start)
+2018-03-07 15:10:39.784    l:620   Iris.swift                       sendBatteryLevelRequest(loopState:)        Subscribing to the battery characteristic
+2018-03-07 15:10:39.785    l:242   Iris.swift                       send                                       Will send packet: dieTemperature(Proto.Iris.Request.TriLoopState.start(Optional(10000)))
+2018-03-07 15:10:39.786    l:823   Iris.swift                       sendDieTemperatureRequest(loopState:)      Setting the die temperature loop interval: 10000. Using payload: <0x00, 0x27, 0x10>
+2018-03-07 15:10:39.786    l:826   Iris.swift                       sendDieTemperatureRequest(loopState:)      Starting the die temperature loop
+2018-03-07 15:10:39.787    l:242   Iris.swift                       send                                       Will send packet: skinTemperature(Proto.Iris.Request.TriLoopState.start(Optional(5000)))
+2018-03-07 15:10:39.787    l:844   Iris.swift                       sendSkinTemperatureRequest(loopState:)     Setting the skin temperature loop interval: 5000. Using payload: <0x01, 0x13, 0x88>
+2018-03-07 15:10:39.788    l:847   Iris.swift                       sendSkinTemperatureRequest(loopState:)     Starting the skin temperature loop
+2018-03-07 15:10:39.788    l:242   Iris.swift                       send                                       Will send packet: deviceIdentifier
+2018-03-07 15:10:39.788    l:631   Iris.swift                       sendDeviceIdentifierRequest()              Requesting the device identifier
+2018-03-07 15:10:39.789    l:242   Iris.swift                       send                                       Will send packet: firmwareVersionRequest
+2018-03-07 15:10:39.789    l:576   Iris.swift                       sendFirmwareVersionRequest()               Requesting the device firmware version
+2018-03-07 15:10:39.789    l:242   Iris.swift                       send                                       Will send packet: setOpticalSensorMode(Proto.Iris.Request.OpticalSensorMode.biosense)
+2018-03-07 15:10:39.790    l:713   Iris.swift                       sendSet(opticalSensorMode:)                Setting the sensor mode to biosense (0x01)
+2018-03-07 15:10:39.790    l:57    BiosensePattern.swift            activate()                                 
+2018-03-07 15:10:39.790    l:242   Iris.swift                       send                                       Will send packet: startOpticalSensorLoop
+2018-03-07 15:10:39.790    l:726   Iris.swift                       sendStartOpticalSensorLoop()               Subscribing to the optical sensor loop
+2018-03-07 15:10:39.791    l:133   MOONEngine.swift                 resetWith(config:calculationsInterval:)    Got color order [Proto.MOONEngine.SampleColor.ambient, Proto.MOONEngine.SampleColor.red, Proto.MOONEngine.SampleColor.infrared, Proto.MOONEngine.SampleColor.green] from IrisConfig(name: "IRIS", adcGain: Proto.Iris.Request.ADCGain.one, adcSpeed: Proto.Iris.Request.ADCSpeed._1000, sampleInterval: 75, currentPerLED: [0, 30, 0, 40, 60, 40, 60, 20], ledWavelengths: [570, 625, 570, 940, 525, 940, 525, 625], ledGroups: [[], [1, 7], [3, 5], [4, 6]])
+2018-03-07 15:10:40.031    l:242   Iris.swift                       send                                       Will send packet: accelerometer(Proto.Iris.Request.DualLoopState.start)
+2018-03-07 15:10:40.031    l:801   Iris.swift                       sendAccelerometerRequest(loopState:)       Subscribing to the accelerometer
+2018-03-07 15:10:40.104    l:106   FilePrimitives.swift             makeSureFolderExists(atPath:)              Successfully created the folder at path: /var/mobile/Containers/Data/Application/BF602907-53D5-4B01-B4E2-ABEDE879F760/Documents/IRIS/Recorded Data/7 mar. 2018 15.10.40
+2018-03-07 15:10:40.107    l:184   IrisSessionManager.swift         startRecording(recordDataToFiles:reco...   Starting recording...
+2018-03-07 15:10:40.111    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C960103-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:10:40.113    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960501-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:40.113    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960501-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:40.124    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960501-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:40.184    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960402-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:40.244    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960402-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:40.304    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960402-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:40.365    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960402-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:40.426    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960402-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:40.484    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:40.544    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:40.605    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:40.665    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:40.725    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:40.784    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:40.846    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:40.904    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:41.085    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C962A19-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:10:41.145    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960701-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:41.265    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C960703-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:10:41.325    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960701-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:41.445    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C960704-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:10:41.625    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960501-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:10:41.744    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C960502-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:10:42.224    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C960602-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:10:56.148    l:331   IrisManager.swift                centralManager(_:didDisconnectPeriphe...   Disconnected from IRIS(name: IRIS-120022, deviceID: <20A1AFE9 3B540F10>, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788). With error Optional(Error Domain=CBErrorDomain Code=6 "The connection has timed out unexpectedly." UserInfo={NSLocalizedDescription=The connection has timed out unexpectedly.})
+2018-03-07 15:10:56.149    l:207   IrisManager.swift                removeFromConnectedIrises(iris:)           Available: [], connecting: [], connected: [IRIS(name: IRIS-120022, deviceID: <20A1AFE9 3B540F10>, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)]
+2018-03-07 15:10:56.149    l:212   IrisManager.swift                removeFromConnectedIrises(iris:)           Available: [], connecting: [], connected: []
+2018-03-07 15:10:56.149    l:213   IrisManager.swift                removeFromConnectedIrises(iris:)           IRIS(name: IRIS-120022, deviceID: <20A1AFE9 3B540F10>, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:10:56.149    l:115   IrisSessionManager.swift         setup()                                    Disconnected from: IRIS(name: IRIS-120022, deviceID: <20A1AFE9 3B540F10>, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:10:56.150    l:66    BiosensePattern.swift            deactivate()                               
+2018-03-07 15:10:56.150    l:214   IrisSessionManager.swift         stopRecording()                            Stopping recording...
+2018-03-07 15:10:56.159    l:69    IrisManager.swift                startScanning()                            
+2018-03-07 15:10:56.159    l:77    IrisManager.swift                startScanning()                            Started scanning for IRIS...
+2018-03-07 15:11:04.869    l:155   Iris.swift                       init(peripheral:queue:advertisementDa...   Advertisement data: ["kCBAdvDataIsConnectable": 1, "kCBAdvDataServiceUUIDs": <__NSArrayM 0x1c404de00>(
+0100,
+Battery,
+0400,
+0500,
+0700,
+0600
+)
+, "kCBAdvDataLocalName": IRIS-120022]
+2018-03-07 15:11:04.898    l:161   Iris.swift                       init(peripheral:queue:advertisementDa...   👶 Initializing IRIS-120022
+2018-03-07 15:11:04.900    l:273   IrisManager.swift                centralManager(_:didDiscover:advertis...   Found IRIS with UUID: 478B6CB1-CF16-3885-7A75-624299730788, advData: ["kCBAdvDataIsConnectable": 1, "kCBAdvDataServiceUUIDs": <__NSArrayM 0x1c404de00>(
+0100,
+Battery,
+0400,
+0500,
+0700,
+0600
+)
+, "kCBAdvDataLocalName": IRIS-120022], services: nil, rssi: -49
+2018-03-07 15:11:04.900    l:174   IrisManager.swift                addToAvailableIrises(iris:)                IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:11:04.901    l:175   IrisManager.swift                addToAvailableIrises(iris:)                Available: [], connecting: [], connected: []
+2018-03-07 15:11:04.901    l:177   IrisManager.swift                addToAvailableIrises(iris:)                Available: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connecting: [], connected: []
+2018-03-07 15:11:04.902    l:280   IrisManager.swift                centralManager(_:didDiscover:advertis...   Initializing irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:04.902    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:04.903    l:306   IrisSessionManager.swift         handleNew(rssi:from:)                      Reconnecting to recently disconnected Iris...
+2018-03-07 15:11:04.903    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:04.903    l:101   IrisManager.swift                connect(to:)                               Will connect to iris IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)...
+2018-03-07 15:11:04.904    l:103   IrisManager.swift                connect(to:)                               Stopping irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:04.904    l:107   IrisManager.swift                connect(to:)                               Available: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connecting: [], connected: []
+2018-03-07 15:11:04.904    l:184   IrisManager.swift                removeFromAvailableIrises(iris:)           Available: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connecting: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connected: []
+2018-03-07 15:11:04.905    l:189   IrisManager.swift                removeFromAvailableIrises(iris:)           Available: [], connecting: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connected: []
+2018-03-07 15:11:04.905    l:190   IrisManager.swift                removeFromAvailableIrises(iris:)           IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:11:04.905    l:112   IrisManager.swift                connect(to:)                               Available: [], connecting: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connected: []
+2018-03-07 15:11:04.905    l:86    IrisManager.swift                stopScanning()                             
+2018-03-07 15:11:05.444    l:305   IrisManager.swift                centralManager(_:didConnect:)              Did connect to IRIS-120022 with UUID 478B6CB1-CF16-3885-7A75-624299730788. Will start discovering characteristics...
+2018-03-07 15:11:05.445    l:169   Iris.swift                       discoverServicesAndCharacteristics(co...   Initializing discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:05.445    l:187   Iris.swift                       discoverServicesAndCharacteristics(co...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:05.563    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c847dd40, isPrimary = YES, UUID = 7C960100-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847db80, isPrimary = YES, UUID = 7C960200-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847e480, isPrimary = YES, UUID = 7C960700-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847e500, isPrimary = YES, UUID = 7C960500-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847e280, isPrimary = YES, UUID = 7C960400-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847e780, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847d9c0, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c847d540, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:11:05.564    l:370   Iris.swift                       peripheral(_:didDiscoverServices:)         Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c847dc40>{number = 5, name = (null)}
+2018-03-07 15:11:05.564    l:395   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Subscribing to error message characteristic
+2018-03-07 15:11:05.565    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c847db80, isPrimary = YES, UUID = 7C960200-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847e480, isPrimary = YES, UUID = 7C960700-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847e500, isPrimary = YES, UUID = 7C960500-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847e280, isPrimary = YES, UUID = 7C960400-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847e780, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847d9c0, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c847d540, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:11:05.565    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:05.565    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c847e480, isPrimary = YES, UUID = 7C960700-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847e500, isPrimary = YES, UUID = 7C960500-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847e280, isPrimary = YES, UUID = 7C960400-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847e780, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847d9c0, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c847d540, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:11:05.565    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:05.566    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c847e500, isPrimary = YES, UUID = 7C960500-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847e280, isPrimary = YES, UUID = 7C960400-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847e780, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847d9c0, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c847d540, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:11:05.566    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:05.566    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c847e280, isPrimary = YES, UUID = 7C960400-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847e780, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847d9c0, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c847d540, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:11:05.566    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:05.567    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c847e780, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c847d9c0, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c847d540, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:11:05.567    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:05.567    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c847d9c0, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c847d540, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:11:05.567    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:05.567    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c847d540, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:11:05.567    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:05.567    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([])
+2018-03-07 15:11:05.568    l:406   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Found characteristics for all the available services
+2018-03-07 15:11:05.568    l:408   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Stopping discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:05.568    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to nil
+2018-03-07 15:11:05.568    l:228   IrisManager.swift                discoverServicesAndCharacteristics(for:)   Setting up IRIS-120022 with config IRIS
+2018-03-07 15:11:05.568    l:761   Iris.swift                       sendSetADCGainRequest(gain:)               Sending a set ADC gain request to one (0x01)
+2018-03-07 15:11:05.568    l:754   Iris.swift                       sendSetADCSpeedRequest(adcSpeed:)          Sending a set ADC speed request to _1000 (0x03)
+2018-03-07 15:11:05.568    l:745   Iris.swift                       sendSetSampleIntervalRequest(interval:)    Sending a set sample interval request to 75
+2018-03-07 15:11:05.568    l:671   Iris.swift                       sendSet(numberOfLedGroups:)                Setting the number of LED groups to 4
+2018-03-07 15:11:05.569    l:687   Iris.swift                       sendSet(ledsIndices:forLedGroupIndex:)     Setting the LED bitmask 00000000 for LED group with index 0
+2018-03-07 15:11:05.569    l:687   Iris.swift                       sendSet(ledsIndices:forLedGroupIndex:)     Setting the LED bitmask 10000010 for LED group with index 1
+2018-03-07 15:11:05.569    l:687   Iris.swift                       sendSet(ledsIndices:forLedGroupIndex:)     Setting the LED bitmask 00101000 for LED group with index 2
+2018-03-07 15:11:05.569    l:687   Iris.swift                       sendSet(ledsIndices:forLedGroupIndex:)     Setting the LED bitmask 01010000 for LED group with index 3
+2018-03-07 15:11:05.569    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 0 for LED at index 0 using payload <0x01, 0x01, 0x00>
+2018-03-07 15:11:05.569    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 30 for LED at index 1 using payload <0x01, 0x02, 0x1E>
+2018-03-07 15:11:05.569    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 0 for LED at index 2 using payload <0x01, 0x04, 0x00>
+2018-03-07 15:11:05.569    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 40 for LED at index 3 using payload <0x01, 0x08, 0x28>
+2018-03-07 15:11:05.570    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 60 for LED at index 4 using payload <0x01, 0x10, 0x3C>
+2018-03-07 15:11:05.570    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 40 for LED at index 5 using payload <0x01, 0x20, 0x28>
+2018-03-07 15:11:05.570    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 60 for LED at index 6 using payload <0x01, 0x40, 0x3C>
+2018-03-07 15:11:05.570    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 20 for LED at index 7 using payload <0x01, 0x80, 0x14>
+2018-03-07 15:11:05.570    l:234   IrisManager.swift                discoverServicesAndCharacteristics(for:)   Available: [], connecting: [IRIS(name: IRIS-120022, deviceID: -, connected: true, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connected: []
+2018-03-07 15:11:05.570    l:236   IrisManager.swift                discoverServicesAndCharacteristics(for:)   Available: [], connecting: [], connected: []
+2018-03-07 15:11:05.570    l:197   IrisManager.swift                addToConnectedIrises(iris:)                IRIS(name: IRIS-120022, deviceID: -, connected: true, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:11:05.571    l:198   IrisManager.swift                addToConnectedIrises(iris:)                Available: [], connecting: [], connected: []
+2018-03-07 15:11:05.571    l:200   IrisManager.swift                addToConnectedIrises(iris:)                Available: [], connecting: [], connected: [IRIS(name: IRIS-120022, deviceID: -, connected: true, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)]
+2018-03-07 15:11:05.571    l:262   IrisSessionManager.swift         handleIrisConnected(iris:)                 Connected to: IRIS(name: IRIS-120022, deviceID: -, connected: true, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:11:05.571    l:242   Iris.swift                       send                                       Will send packet: batteryLevel(Proto.Iris.Request.DualLoopState.start)
+2018-03-07 15:11:05.571    l:620   Iris.swift                       sendBatteryLevelRequest(loopState:)        Subscribing to the battery characteristic
+2018-03-07 15:11:05.571    l:242   Iris.swift                       send                                       Will send packet: dieTemperature(Proto.Iris.Request.TriLoopState.start(Optional(10000)))
+2018-03-07 15:11:05.571    l:823   Iris.swift                       sendDieTemperatureRequest(loopState:)      Setting the die temperature loop interval: 10000. Using payload: <0x00, 0x27, 0x10>
+2018-03-07 15:11:05.572    l:826   Iris.swift                       sendDieTemperatureRequest(loopState:)      Starting the die temperature loop
+2018-03-07 15:11:05.572    l:242   Iris.swift                       send                                       Will send packet: skinTemperature(Proto.Iris.Request.TriLoopState.start(Optional(5000)))
+2018-03-07 15:11:05.572    l:844   Iris.swift                       sendSkinTemperatureRequest(loopState:)     Setting the skin temperature loop interval: 5000. Using payload: <0x01, 0x13, 0x88>
+2018-03-07 15:11:05.572    l:847   Iris.swift                       sendSkinTemperatureRequest(loopState:)     Starting the skin temperature loop
+2018-03-07 15:11:05.572    l:242   Iris.swift                       send                                       Will send packet: deviceIdentifier
+2018-03-07 15:11:05.572    l:631   Iris.swift                       sendDeviceIdentifierRequest()              Requesting the device identifier
+2018-03-07 15:11:05.572    l:242   Iris.swift                       send                                       Will send packet: firmwareVersionRequest
+2018-03-07 15:11:05.572    l:576   Iris.swift                       sendFirmwareVersionRequest()               Requesting the device firmware version
+2018-03-07 15:11:05.572    l:242   Iris.swift                       send                                       Will send packet: setOpticalSensorMode(Proto.Iris.Request.OpticalSensorMode.biosense)
+2018-03-07 15:11:05.573    l:713   Iris.swift                       sendSet(opticalSensorMode:)                Setting the sensor mode to biosense (0x01)
+2018-03-07 15:11:05.573    l:57    BiosensePattern.swift            activate()                                 
+2018-03-07 15:11:05.573    l:242   Iris.swift                       send                                       Will send packet: startOpticalSensorLoop
+2018-03-07 15:11:05.573    l:726   Iris.swift                       sendStartOpticalSensorLoop()               Subscribing to the optical sensor loop
+2018-03-07 15:11:05.573    l:133   MOONEngine.swift                 resetWith(config:calculationsInterval:)    Got color order [Proto.MOONEngine.SampleColor.ambient, Proto.MOONEngine.SampleColor.red, Proto.MOONEngine.SampleColor.infrared, Proto.MOONEngine.SampleColor.green] from IrisConfig(name: "IRIS", adcGain: Proto.Iris.Request.ADCGain.one, adcSpeed: Proto.Iris.Request.ADCSpeed._1000, sampleInterval: 75, currentPerLED: [0, 30, 0, 40, 60, 40, 60, 20], ledWavelengths: [570, 625, 570, 940, 525, 940, 525, 625], ledGroups: [[], [1, 7], [3, 5], [4, 6]])
+2018-03-07 15:11:05.785    l:242   Iris.swift                       send                                       Will send packet: accelerometer(Proto.Iris.Request.DualLoopState.start)
+2018-03-07 15:11:05.786    l:801   Iris.swift                       sendAccelerometerRequest(loopState:)       Subscribing to the accelerometer
+2018-03-07 15:11:05.800    l:106   FilePrimitives.swift             makeSureFolderExists(atPath:)              Successfully created the folder at path: /var/mobile/Containers/Data/Application/BF602907-53D5-4B01-B4E2-ABEDE879F760/Documents/IRIS/Recorded Data/7 mar. 2018 15.11.05
+2018-03-07 15:11:05.802    l:184   IrisSessionManager.swift         startRecording(recordDataToFiles:reco...   Starting recording...
+2018-03-07 15:11:05.807    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C960103-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:11:05.807    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960501-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:05.807    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960501-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:05.833    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960501-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:05.893    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960402-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:05.953    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960402-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:06.013    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960402-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:06.073    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960402-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:06.134    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960402-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:06.193    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:06.253    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:06.313    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:06.374    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:06.433    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:06.494    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:06.553    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:06.613    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:06.673    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C962A19-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:11:06.733    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960701-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:06.794    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C960703-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:11:06.854    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960701-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:06.914    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C960704-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:11:07.093    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960501-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:07.153    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C960502-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:11:07.273    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C960602-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:11:07.394    l:892   Iris.swift                       processSystemErrorMessage                  Parsing error message with hex: <0x02, 0x01, 0x1A, 0x72, 0x65, 0x69, 0x6E, 0x69, 0x74, 0x69, 0x61, 0x6C, 0x69, 0x7A, 0x69, 0x6E, 0x67, 0x20, 0x61, 0x64, 0x73, 0x31, 0x32, 0x39, 0x32, 0x20, 0x6E, 0x6F, 0x77, 0x78, 0x0E, 0x4E>
+2018-03-07 15:11:07.395    l:913   Iris.swift                       processSystemErrorMessage                  ❌ Received IRIS error with base 2, code 1 and message Optional("\u{1A}reinitializing ads1292 now")
+2018-03-07 15:11:09.074    l:892   Iris.swift                       processSystemErrorMessage                  Parsing error message with hex: <0x02, 0x01, 0x1A, 0x72, 0x65, 0x69, 0x6E, 0x69, 0x74, 0x69, 0x61, 0x6C, 0x69, 0x7A, 0x69, 0x6E, 0x67, 0x20, 0x61, 0x64, 0x73, 0x31, 0x32, 0x39, 0x32, 0x20, 0x6E, 0x6F, 0x77, 0x78, 0x0E, 0x4E>
+2018-03-07 15:11:09.074    l:913   Iris.swift                       processSystemErrorMessage                  ❌ Received IRIS error with base 2, code 1 and message Optional("\u{1A}reinitializing ads1292 now")
+2018-03-07 15:11:20.390    l:331   IrisManager.swift                centralManager(_:didDisconnectPeriphe...   Disconnected from IRIS(name: IRIS-120022, deviceID: <20A1AFE9 3B540F10>, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788). With error Optional(Error Domain=CBErrorDomain Code=6 "The connection has timed out unexpectedly." UserInfo={NSLocalizedDescription=The connection has timed out unexpectedly.})
+2018-03-07 15:11:20.392    l:207   IrisManager.swift                removeFromConnectedIrises(iris:)           Available: [], connecting: [], connected: [IRIS(name: IRIS-120022, deviceID: <20A1AFE9 3B540F10>, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)]
+2018-03-07 15:11:20.393    l:212   IrisManager.swift                removeFromConnectedIrises(iris:)           Available: [], connecting: [], connected: []
+2018-03-07 15:11:20.393    l:213   IrisManager.swift                removeFromConnectedIrises(iris:)           IRIS(name: IRIS-120022, deviceID: <20A1AFE9 3B540F10>, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:11:20.394    l:115   IrisSessionManager.swift         setup()                                    Disconnected from: IRIS(name: IRIS-120022, deviceID: <20A1AFE9 3B540F10>, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:11:20.396    l:66    BiosensePattern.swift            deactivate()                               
+2018-03-07 15:11:20.396    l:214   IrisSessionManager.swift         stopRecording()                            Stopping recording...
+2018-03-07 15:11:20.403    l:69    IrisManager.swift                startScanning()                            
+2018-03-07 15:11:20.404    l:77    IrisManager.swift                startScanning()                            Started scanning for IRIS...
+2018-03-07 15:11:24.967    l:155   Iris.swift                       init(peripheral:queue:advertisementDa...   Advertisement data: ["kCBAdvDataIsConnectable": 1, "kCBAdvDataServiceUUIDs": <__NSArrayM 0x1c805b840>(
+0100,
+Battery,
+0400,
+0500,
+0700,
+0600
+)
+, "kCBAdvDataLocalName": IRIS-120022]
+2018-03-07 15:11:24.969    l:161   Iris.swift                       init(peripheral:queue:advertisementDa...   👶 Initializing IRIS-120022
+2018-03-07 15:11:24.969    l:273   IrisManager.swift                centralManager(_:didDiscover:advertis...   Found IRIS with UUID: 478B6CB1-CF16-3885-7A75-624299730788, advData: ["kCBAdvDataIsConnectable": 1, "kCBAdvDataServiceUUIDs": <__NSArrayM 0x1c805b840>(
+0100,
+Battery,
+0400,
+0500,
+0700,
+0600
+)
+, "kCBAdvDataLocalName": IRIS-120022], services: nil, rssi: -42
+2018-03-07 15:11:24.970    l:174   IrisManager.swift                addToAvailableIrises(iris:)                IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:11:24.971    l:175   IrisManager.swift                addToAvailableIrises(iris:)                Available: [], connecting: [], connected: []
+2018-03-07 15:11:24.972    l:177   IrisManager.swift                addToAvailableIrises(iris:)                Available: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connecting: [], connected: []
+2018-03-07 15:11:24.973    l:280   IrisManager.swift                centralManager(_:didDiscover:advertis...   Initializing irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:24.973    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:24.974    l:306   IrisSessionManager.swift         handleNew(rssi:from:)                      Reconnecting to recently disconnected Iris...
+2018-03-07 15:11:24.976    l:289   IrisManager.swift                centralManager(_:didDiscover:advertis...   Starting irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:24.977    l:101   IrisManager.swift                connect(to:)                               Will connect to iris IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)...
+2018-03-07 15:11:24.978    l:103   IrisManager.swift                connect(to:)                               Stopping irisUnavailableTimers[478B6CB1-CF16-3885-7A75-624299730788] on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:24.978    l:107   IrisManager.swift                connect(to:)                               Available: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connecting: [], connected: []
+2018-03-07 15:11:24.979    l:184   IrisManager.swift                removeFromAvailableIrises(iris:)           Available: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connecting: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connected: []
+2018-03-07 15:11:24.980    l:189   IrisManager.swift                removeFromAvailableIrises(iris:)           Available: [], connecting: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connected: []
+2018-03-07 15:11:24.980    l:190   IrisManager.swift                removeFromAvailableIrises(iris:)           IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:11:24.981    l:112   IrisManager.swift                connect(to:)                               Available: [], connecting: [IRIS(name: IRIS-120022, deviceID: -, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connected: []
+2018-03-07 15:11:24.982    l:86    IrisManager.swift                stopScanning()                             
+2018-03-07 15:11:25.945    l:305   IrisManager.swift                centralManager(_:didConnect:)              Did connect to IRIS-120022 with UUID 478B6CB1-CF16-3885-7A75-624299730788. Will start discovering characteristics...
+2018-03-07 15:11:25.946    l:169   Iris.swift                       discoverServicesAndCharacteristics(co...   Initializing discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:25.948    l:187   Iris.swift                       discoverServicesAndCharacteristics(co...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c0271340>{number = 3, name = (null)}
+2018-03-07 15:11:26.063    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c52747c0, isPrimary = YES, UUID = 7C960100-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274880, isPrimary = YES, UUID = 7C960200-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c52748c0, isPrimary = YES, UUID = 7C960700-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274900, isPrimary = YES, UUID = 7C960500-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274940, isPrimary = YES, UUID = 7C960400-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274980, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274a00, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c52749c0, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:11:26.064    l:370   Iris.swift                       peripheral(_:didDiscoverServices:)         Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c847dc40>{number = 5, name = (null)}
+2018-03-07 15:11:26.065    l:395   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Subscribing to error message characteristic
+2018-03-07 15:11:26.066    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c5274880, isPrimary = YES, UUID = 7C960200-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c52748c0, isPrimary = YES, UUID = 7C960700-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274900, isPrimary = YES, UUID = 7C960500-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274940, isPrimary = YES, UUID = 7C960400-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274980, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274a00, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c52749c0, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:11:26.066    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c847dc40>{number = 5, name = (null)}
+2018-03-07 15:11:26.066    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c52748c0, isPrimary = YES, UUID = 7C960700-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274900, isPrimary = YES, UUID = 7C960500-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274940, isPrimary = YES, UUID = 7C960400-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274980, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274a00, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c52749c0, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:11:26.067    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c847dc40>{number = 5, name = (null)}
+2018-03-07 15:11:26.067    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c5274900, isPrimary = YES, UUID = 7C960500-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274940, isPrimary = YES, UUID = 7C960400-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274980, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274a00, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c52749c0, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:11:26.068    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c847dc40>{number = 5, name = (null)}
+2018-03-07 15:11:26.068    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c5274940, isPrimary = YES, UUID = 7C960400-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274980, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274a00, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c52749c0, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:11:26.069    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c847dc40>{number = 5, name = (null)}
+2018-03-07 15:11:26.069    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c5274980, isPrimary = YES, UUID = 7C960600-D7D1-47C3-893E-111393C3F9A4>, <CBService: 0x1c5274a00, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c52749c0, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:11:26.070    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c847dc40>{number = 5, name = (null)}
+2018-03-07 15:11:26.070    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c5274a00, isPrimary = YES, UUID = 8E400001-F315-4F60-9FB8-838830DAEA50>, <CBService: 0x1c52749c0, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:11:26.070    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c847dc40>{number = 5, name = (null)}
+2018-03-07 15:11:26.071    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([<CBService: 0x1c52749c0, isPrimary = YES, UUID = 7C96180F-D7D1-47C3-893E-111393C3F9A4>])
+2018-03-07 15:11:26.071    l:416   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Starting discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c847dc40>{number = 5, name = (null)}
+2018-03-07 15:11:26.071    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to Optional([])
+2018-03-07 15:11:26.072    l:406   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Found characteristics for all the available services
+2018-03-07 15:11:26.072    l:408   Iris.swift                       peripheral(_:didDiscoverCharacteristi...   Stopping discoverCharacteristicsWatchdog on queue: <NSThread: 0x1c847dc40>{number = 5, name = (null)}
+2018-03-07 15:11:26.072    l:42    Iris.swift                       servicesLeftToDiscoverCharacteristicsFor   servicesLeftToDiscoverCharacteristicsFor got set to nil
+2018-03-07 15:11:26.072    l:228   IrisManager.swift                discoverServicesAndCharacteristics(for:)   Setting up IRIS-120022 with config IRIS
+2018-03-07 15:11:26.073    l:761   Iris.swift                       sendSetADCGainRequest(gain:)               Sending a set ADC gain request to one (0x01)
+2018-03-07 15:11:26.073    l:754   Iris.swift                       sendSetADCSpeedRequest(adcSpeed:)          Sending a set ADC speed request to _1000 (0x03)
+2018-03-07 15:11:26.073    l:745   Iris.swift                       sendSetSampleIntervalRequest(interval:)    Sending a set sample interval request to 75
+2018-03-07 15:11:26.074    l:671   Iris.swift                       sendSet(numberOfLedGroups:)                Setting the number of LED groups to 4
+2018-03-07 15:11:26.074    l:687   Iris.swift                       sendSet(ledsIndices:forLedGroupIndex:)     Setting the LED bitmask 00000000 for LED group with index 0
+2018-03-07 15:11:26.074    l:687   Iris.swift                       sendSet(ledsIndices:forLedGroupIndex:)     Setting the LED bitmask 10000010 for LED group with index 1
+2018-03-07 15:11:26.074    l:687   Iris.swift                       sendSet(ledsIndices:forLedGroupIndex:)     Setting the LED bitmask 00101000 for LED group with index 2
+2018-03-07 15:11:26.075    l:687   Iris.swift                       sendSet(ledsIndices:forLedGroupIndex:)     Setting the LED bitmask 01010000 for LED group with index 3
+2018-03-07 15:11:26.075    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 0 for LED at index 0 using payload <0x01, 0x01, 0x00>
+2018-03-07 15:11:26.075    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 30 for LED at index 1 using payload <0x01, 0x02, 0x1E>
+2018-03-07 15:11:26.075    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 0 for LED at index 2 using payload <0x01, 0x04, 0x00>
+2018-03-07 15:11:26.076    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 40 for LED at index 3 using payload <0x01, 0x08, 0x28>
+2018-03-07 15:11:26.076    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 60 for LED at index 4 using payload <0x01, 0x10, 0x3C>
+2018-03-07 15:11:26.076    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 40 for LED at index 5 using payload <0x01, 0x20, 0x28>
+2018-03-07 15:11:26.076    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 60 for LED at index 6 using payload <0x01, 0x40, 0x3C>
+2018-03-07 15:11:26.076    l:647   Iris.swift                       sendSetLedCurrentRequest(index:current:)   Setting the current to 20 for LED at index 7 using payload <0x01, 0x80, 0x14>
+2018-03-07 15:11:26.076    l:234   IrisManager.swift                discoverServicesAndCharacteristics(for:)   Available: [], connecting: [IRIS(name: IRIS-120022, deviceID: -, connected: true, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)], connected: []
+2018-03-07 15:11:26.077    l:236   IrisManager.swift                discoverServicesAndCharacteristics(for:)   Available: [], connecting: [], connected: []
+2018-03-07 15:11:26.077    l:197   IrisManager.swift                addToConnectedIrises(iris:)                IRIS(name: IRIS-120022, deviceID: -, connected: true, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:11:26.077    l:198   IrisManager.swift                addToConnectedIrises(iris:)                Available: [], connecting: [], connected: []
+2018-03-07 15:11:26.077    l:200   IrisManager.swift                addToConnectedIrises(iris:)                Available: [], connecting: [], connected: [IRIS(name: IRIS-120022, deviceID: -, connected: true, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)]
+2018-03-07 15:11:26.078    l:262   IrisSessionManager.swift         handleIrisConnected(iris:)                 Connected to: IRIS(name: IRIS-120022, deviceID: -, connected: true, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:11:26.078    l:242   Iris.swift                       send                                       Will send packet: batteryLevel(Proto.Iris.Request.DualLoopState.start)
+2018-03-07 15:11:26.078    l:620   Iris.swift                       sendBatteryLevelRequest(loopState:)        Subscribing to the battery characteristic
+2018-03-07 15:11:26.078    l:242   Iris.swift                       send                                       Will send packet: dieTemperature(Proto.Iris.Request.TriLoopState.start(Optional(10000)))
+2018-03-07 15:11:26.078    l:823   Iris.swift                       sendDieTemperatureRequest(loopState:)      Setting the die temperature loop interval: 10000. Using payload: <0x00, 0x27, 0x10>
+2018-03-07 15:11:26.079    l:826   Iris.swift                       sendDieTemperatureRequest(loopState:)      Starting the die temperature loop
+2018-03-07 15:11:26.079    l:242   Iris.swift                       send                                       Will send packet: skinTemperature(Proto.Iris.Request.TriLoopState.start(Optional(5000)))
+2018-03-07 15:11:26.079    l:844   Iris.swift                       sendSkinTemperatureRequest(loopState:)     Setting the skin temperature loop interval: 5000. Using payload: <0x01, 0x13, 0x88>
+2018-03-07 15:11:26.079    l:847   Iris.swift                       sendSkinTemperatureRequest(loopState:)     Starting the skin temperature loop
+2018-03-07 15:11:26.079    l:242   Iris.swift                       send                                       Will send packet: deviceIdentifier
+2018-03-07 15:11:26.080    l:631   Iris.swift                       sendDeviceIdentifierRequest()              Requesting the device identifier
+2018-03-07 15:11:26.080    l:242   Iris.swift                       send                                       Will send packet: firmwareVersionRequest
+2018-03-07 15:11:26.080    l:576   Iris.swift                       sendFirmwareVersionRequest()               Requesting the device firmware version
+2018-03-07 15:11:26.080    l:242   Iris.swift                       send                                       Will send packet: setOpticalSensorMode(Proto.Iris.Request.OpticalSensorMode.biosense)
+2018-03-07 15:11:26.081    l:713   Iris.swift                       sendSet(opticalSensorMode:)                Setting the sensor mode to biosense (0x01)
+2018-03-07 15:11:26.081    l:57    BiosensePattern.swift            activate()                                 
+2018-03-07 15:11:26.081    l:242   Iris.swift                       send                                       Will send packet: startOpticalSensorLoop
+2018-03-07 15:11:26.081    l:726   Iris.swift                       sendStartOpticalSensorLoop()               Subscribing to the optical sensor loop
+2018-03-07 15:11:26.082    l:133   MOONEngine.swift                 resetWith(config:calculationsInterval:)    Got color order [Proto.MOONEngine.SampleColor.ambient, Proto.MOONEngine.SampleColor.red, Proto.MOONEngine.SampleColor.infrared, Proto.MOONEngine.SampleColor.green] from IrisConfig(name: "IRIS", adcGain: Proto.Iris.Request.ADCGain.one, adcSpeed: Proto.Iris.Request.ADCSpeed._1000, sampleInterval: 75, currentPerLED: [0, 30, 0, 40, 60, 40, 60, 20], ledWavelengths: [570, 625, 570, 940, 525, 940, 525, 625], ledGroups: [[], [1, 7], [3, 5], [4, 6]])
+2018-03-07 15:11:26.297    l:242   Iris.swift                       send                                       Will send packet: accelerometer(Proto.Iris.Request.DualLoopState.start)
+2018-03-07 15:11:26.297    l:801   Iris.swift                       sendAccelerometerRequest(loopState:)       Subscribing to the accelerometer
+2018-03-07 15:11:26.313    l:106   FilePrimitives.swift             makeSureFolderExists(atPath:)              Successfully created the folder at path: /var/mobile/Containers/Data/Application/BF602907-53D5-4B01-B4E2-ABEDE879F760/Documents/IRIS/Recorded Data/7 mar. 2018 15.11.26
+2018-03-07 15:11:26.315    l:184   IrisSessionManager.swift         startRecording(recordDataToFiles:reco...   Starting recording...
+
+2018-03-07 15:11:26.332    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960501-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:26.392    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960402-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:26.452    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960402-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:26.512    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960402-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:26.572    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960402-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:26.632    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960402-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:26.692    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:26.752    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:26.812    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:26.872    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:26.932    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:26.992    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:27.052    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:27.113    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960401-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:27.173    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C962A19-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:11:27.232    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960701-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:27.293    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C960703-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:11:27.353    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960701-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:27.414    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C960704-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:11:27.593    l:472   Iris.swift                       peripheral(_:didWriteValueFor:error:)      Wrote to characteristic 7C960501-D7D1-47C3-893E-111393C3F9A4. Value: nil
+2018-03-07 15:11:27.653    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C960502-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:11:27.772    l:465   Iris.swift                       peripheral(_:didUpdateNotificationSta...   Notifications for 7C960602-D7D1-47C3-893E-111393C3F9A4 is set to true
+2018-03-07 15:13:44.000    l:331   IrisManager.swift                centralManager(_:didDisconnectPeriphe...   Disconnected from IRIS(name: IRIS-120022, deviceID: <20A1AFE9 3B540F10>, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788). With error Optional(Error Domain=CBErrorDomain Code=6 "The connection has timed out unexpectedly." UserInfo={NSLocalizedDescription=The connection has timed out unexpectedly.})
+2018-03-07 15:13:44.001    l:207   IrisManager.swift                removeFromConnectedIrises(iris:)           Available: [], connecting: [], connected: [IRIS(name: IRIS-120022, deviceID: <20A1AFE9 3B540F10>, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)]
+2018-03-07 15:13:44.001    l:212   IrisManager.swift                removeFromConnectedIrises(iris:)           Available: [], connecting: [], connected: []
+2018-03-07 15:13:44.001    l:213   IrisManager.swift                removeFromConnectedIrises(iris:)           IRIS(name: IRIS-120022, deviceID: <20A1AFE9 3B540F10>, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:13:44.007    l:115   IrisSessionManager.swift         setup()                                    Disconnected from: IRIS(name: IRIS-120022, deviceID: <20A1AFE9 3B540F10>, connected: false, bleUUID: 478B6CB1-CF16-3885-7A75-624299730788)
+2018-03-07 15:13:44.008    l:66    BiosensePattern.swift            deactivate()                               
+2018-03-07 15:13:44.008    l:214   IrisSessionManager.swift         stopRecording()                            Stopping recording...
