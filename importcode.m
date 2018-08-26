@@ -1,7 +1,6 @@
 delimiter = ',';
 startRow = 1;
 
-
 % Recorded data
 format = '%{dd.MM.yyyy HH:mm:ss.SSS}D%f%f%f%f%f%f%f%f%[^\n\r]';
 fileName = '7mars_bev_hodehorisontalt.csv'; %Name of raw data file.
