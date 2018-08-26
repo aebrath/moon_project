@@ -47,3 +47,16 @@ for i = 1:iterator:length(acctot_clean) - WindowLength
     end
     
 end
+%% Plotting result
+figure()
+subplot(3,1,1)
+plot(acctot_clean)
+xlabel('All directions')
+ylabel('Amplitude')
+subplot(3,1,2)
+plot(Y_vec)
+xlabel('All directions')
+ylabel('STD')
+subplot(3,1,3)
+plot(Result_vec)
+xlabel(['Detected movement with threshold ', num2str(threshold)])
