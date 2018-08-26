@@ -1,3 +1,17 @@
+importcode;
+prompt = 'Do you want to set a threshold? Y/N '; %Letting user set a threshold or set to default
+ans = 0;
+while ans < 1 
+    str = input(prompt, 's');
+    if (str == 'Y')
+        threshold = input('Set threshold: ');
+        ans = 1;
+    elseif (str == 'N')
+        threshold = 0.035;
+        ans = 1;
+    end
+
+end
 %% Fix all
 accX_new = isnan(accX); %Checking for NaN in x-direction
 j = 1;
